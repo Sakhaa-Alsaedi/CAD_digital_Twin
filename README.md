@@ -1,4 +1,4 @@
-# 🫀 Cardiac Digital Twins Enhanced
+# Cardiac Digital Twins of physics-informed self-supervised learning for non-invasive medical digital twins
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
@@ -6,25 +6,24 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](./docs/)
 
-**Enhanced implementation of physics-informed self-supervised learning for non-invasive medical digital twins**
 
-> 🚀 **Significantly improved version** of the original Med-Real2Sim framework with better architecture, comprehensive tutorials, and clinical applications.
+> **Significantly improved version** of the original Med-Real2Sim framework with better architecture, comprehensive tutorials, and clinical applications.
 
 ## 🌟 Key Features
 
-### 🔬 **Enhanced Physics Models**
+### **Enhanced Physics Models**
 - ✅ **Validated Windkessel Models** with robust parameter checking
 - ✅ **Adaptive ODE Solvers** for numerical stability
 - ✅ **Clinical Metrics Calculation** (EF, stroke volume, PV loops)
 - ✅ **Batch Simulation** capabilities for parameter studies
 
-### 🧠 **Advanced Neural Networks**
+###  **Advanced Neural Networks**
 - ✅ **3D CNNs with Attention** mechanisms for improved accuracy
 - ✅ **Residual Connections** and modern architectures
 - ✅ **Multi-task Learning** for simultaneous parameter prediction
 - ✅ **Physics-Informed Losses** for better generalization
 
-### 📚 **Comprehensive Tutorials**
+###  **Comprehensive Tutorials**
 - ✅ **Step-by-step Jupyter Notebooks** with detailed explanations
 - ✅ **Clinical Case Studies** and real-world applications
 - ✅ **Interactive Visualizations** and analysis tools
@@ -36,16 +35,16 @@
 - ✅ **Uncertainty Quantification** for clinical reliability
 - ✅ **Digital Twin Creation** for personalized medicine
 
-## 📊 Performance Improvements
+##  Performance Improvements
 
 | Metric | Original | Enhanced | Improvement |
 |--------|----------|----------|-------------|
-| Training Speed | Baseline | **40% faster** | ⚡ Optimized architectures |
-| Accuracy | Baseline | **15% better** | 🎯 Attention mechanisms |
-| Code Quality | Basic | **Production-ready** | 🛡️ Robust error handling |
-| Documentation | Minimal | **Comprehensive** | 📚 Full tutorials |
+| Training Speed | Baseline | **40% faster** |  Optimized architectures |
+| Accuracy | Baseline | **15% better** |  Attention mechanisms |
+| Code Quality | Basic | **Production-ready** |  Robust error handling |
+| Documentation | Minimal | **Comprehensive** |  Full tutorials |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -83,7 +82,7 @@ print(f"Ejection Fraction: {results['EF']:.1f}%")
 cnn = Enhanced3DCNN(input_channels=3, num_classes=7, use_attention=True)
 ```
 
-### 📓 Tutorial Notebooks
+###  Tutorial Notebooks
 
 Start your journey with our comprehensive tutorials:
 
@@ -95,7 +94,7 @@ Start your journey with our comprehensive tutorials:
 6. **[Advanced Features](notebooks/06_Advanced_Features.ipynb)** - Cutting-edge techniques
 7. **[Clinical Case Studies](notebooks/07_Clinical_Case_Studies.ipynb)** - Real-world examples
 
-## 🏗️ Repository Structure
+##  Repository Structure
 
 ```
 cardiac-digital-twins-enhanced/
@@ -115,7 +114,7 @@ cardiac-digital-twins-enhanced/
 └── 📁 models/                       # Pre-trained models
 ```
 
-## 🔬 Research Background
+##  Research Background
 
 This framework is based on the **NeurIPS 2024** paper:
 
@@ -123,14 +122,14 @@ This framework is based on the **NeurIPS 2024** paper:
 
 ### Key Innovations in This Enhanced Version:
 
-🎯 **Improved Architecture**: Modular, extensible, and well-documented codebase  
-🧠 **Advanced Neural Networks**: Attention mechanisms and residual connections  
-🔧 **Better Training**: Advanced optimizers, regularization, and validation  
-🏥 **Clinical Focus**: Real-world applications and interpretability  
-📚 **Educational Resources**: Comprehensive tutorials and documentation  
-🛡️ **Production Ready**: Robust error handling and testing  
+ **Improved Architecture**: Modular, extensible, and well-documented codebase  
+ **Advanced Neural Networks**: Attention mechanisms and residual connections  
+ **Better Training**: Advanced optimizers, regularization, and validation  
+ **Clinical Focus**: Real-world applications and interpretability  
+ **Educational Resources**: Comprehensive tutorials and documentation  
+ **Production Ready**: Robust error handling and testing  
 
-## 📈 Methodology Overview
+##  Methodology Overview
 
 ### 1. **Physics-Informed Modeling**
 - **Windkessel Models**: Cardiac hemodynamics simulation
@@ -147,13 +146,13 @@ This framework is based on the **NeurIPS 2024** paper:
 - **Uncertainty Quantification**: Confidence estimation
 - **Clinical Validation**: Real-world performance
 
-## 🏥 Clinical Applications
+##  Clinical Applications
 
 ### **Supported Conditions:**
-- ❤️ **Heart Failure**: Reduced ejection fraction detection
-- 🩺 **Hypertension**: Elevated pressure identification
-- 🫀 **Valve Diseases**: Stenosis and regurgitation analysis
-- 📊 **Arrhythmias**: Irregular rhythm detection
+-  **Heart Failure**: Reduced ejection fraction detection
+-  **Hypertension**: Elevated pressure identification
+-  **Valve Diseases**: Stenosis and regurgitation analysis
+-  **Arrhythmias**: Irregular rhythm detection
 
 ### **Clinical Metrics:**
 - **Ejection Fraction (EF)**: Primary cardiac function measure
@@ -161,27 +160,27 @@ This framework is based on the **NeurIPS 2024** paper:
 - **Pressure-Volume Loops**: Comprehensive cardiac assessment
 - **Hemodynamic Parameters**: Detailed cardiovascular analysis
 
-## 🛠️ Advanced Features
+##  Advanced Features
 
 ### **Neural Network Enhancements:**
-- 🎯 **Spatial Attention**: Focus on relevant cardiac regions
-- ⏰ **Temporal Attention**: Capture cardiac cycle dynamics
-- 🔗 **Residual Connections**: Improved gradient flow
-- 🎭 **Multi-task Learning**: Simultaneous parameter prediction
+-  **Spatial Attention**: Focus on relevant cardiac regions
+-  **Temporal Attention**: Capture cardiac cycle dynamics
+-  **Residual Connections**: Improved gradient flow
+-  **Multi-task Learning**: Simultaneous parameter prediction
 
 ### **Training Improvements:**
-- 📊 **Physics-Informed Losses**: Incorporate domain knowledge
-- 🔄 **Advanced Optimizers**: AdamW, learning rate scheduling
-- 🎯 **Regularization**: Dropout, batch normalization
-- ✅ **Cross-Validation**: Robust performance evaluation
+-  **Physics-Informed Losses**: Incorporate domain knowledge
+-  **Advanced Optimizers**: AdamW, learning rate scheduling
+-  **Regularization**: Dropout, batch normalization
+-  **Cross-Validation**: Robust performance evaluation
 
 ### **Clinical Integration:**
-- 🏥 **DICOM Support**: Medical imaging standards
-- 📋 **Clinical Workflows**: Integration with hospital systems
-- 🔒 **Privacy Protection**: Secure data handling
-- 📊 **Interpretability**: Explainable AI for clinicians
+-  **DICOM Support**: Medical imaging standards
+-  **Clinical Workflows**: Integration with hospital systems
+-  **Privacy Protection**: Secure data handling
+-  **Interpretability**: Explainable AI for clinicians
 
-## 📊 Datasets and Models
+##  Datasets and Models
 
 ### **Supported Datasets:**
 - **EchoNet-Dynamic**: Large-scale echocardiogram dataset
@@ -189,11 +188,11 @@ This framework is based on the **NeurIPS 2024** paper:
 - **Custom Datasets**: Framework for proprietary data
 
 ### **Pre-trained Models:**
-- 🫀 **Cardiac Parameter Predictor**: 7-parameter Windkessel estimation
-- 🏥 **Disease Classifier**: Multi-class cardiac condition detection
-- 🎯 **Multi-task Model**: Combined parameter and classification
+-  **Cardiac Parameter Predictor**: 7-parameter Windkessel estimation
+-  **Disease Classifier**: Multi-class cardiac condition detection
+-  **Multi-task Model**: Combined parameter and classification
 
-## 🧪 Testing and Validation
+##  Testing and Validation
 
 ```bash
 # Run unit tests
@@ -208,48 +207,42 @@ flake8 src/ tests/
 mypy src/
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - **[API Documentation](docs/api/)**: Detailed function and class references
 - **[User Guide](docs/user_guide/)**: Comprehensive usage instructions
 - **[Developer Guide](docs/developer_guide/)**: Contributing and development
 - **[Clinical Guide](docs/clinical_guide/)**: Medical applications and validation
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ### **Ways to Contribute:**
-- 🐛 **Bug Reports**: Help us identify and fix issues
-- 💡 **Feature Requests**: Suggest new capabilities
-- 📝 **Documentation**: Improve tutorials and guides
-- 🧪 **Testing**: Add test cases and validation
-- 🏥 **Clinical Validation**: Real-world testing and feedback
+-  **Bug Reports**: Help us identify and fix issues
+-  **Feature Requests**: Suggest new capabilities
+-  **Documentation**: Improve tutorials and guides
+-  **Testing**: Add test cases and validation
+-  **Clinical Validation**: Real-world testing and feedback
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Original Med-Real2Sim Team**: Foundation research and implementation
 - **EchoNet Project**: Echocardiogram dataset and benchmarks
 - **PyTorch Community**: Deep learning framework and tools
 - **Medical Collaborators**: Clinical validation and feedback
 
-## 📞 Contact
+##  Contact
 
 - **Issues**: [GitHub Issues](https://github.com/your-username/cardiac-digital-twins-enhanced/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/your-username/cardiac-digital-twins-enhanced/discussions)
 - **Email**: Sakhaa.alsaedi@kaust.edu.sa
 
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/cardiac-digital-twins-enhanced&type=Date)](https://star-history.com/#your-username/cardiac-digital-twins-enhanced&Date)
-
----
-
-**🚀 Revolutionizing cardiac care through AI-powered digital twins!**
+** Revolutionizing cardiac care through AI-powered digital twins!**
 
 *Built with ❤️ for the medical AI community*
 
